@@ -1,6 +1,193 @@
 <fable>
-	<page>
-  
+	<page background="bg_floresta.png" soundtrack="song.wav">
+  	
     
+    <agent img="agua.png" x="0" y="0" height="100" width="100" />
+    <agent img="chao_floresta_borda.png" x="90" y="0" height="100" width="100" />
+    <agent img="chao_floresta.png" x="190" y="0" height="100" width="100" />
+    <agent img="chao_floresta.png" x="290" y="0" height="100" width="100" />
+    <agent img="chao_floresta.png" x="390" y="0" height="100" width="100" />
+    <agent img="chao_floresta.png" x="400" y="0" height="100" width="100" />
+    <agent img="protagonista_parado.png" x="100" y="85" height="100" width="100" />
+    <agent img="arbusto_floresta.png" x="250" y="90" height="70" width="70" />
+  
+    <agent text="Era uma vez..." font-size="22" color="blue" x="40" y="350" width="500" height="100"/>
+    
+    <agent img="sign_direita.png" x="425" y="90" height="60" width="60" on-touch="_NEXT_PAGE" />
+    
+    
+  </page>
+
+	<page background="bg_floresta.png" soundtrack="song.wav">
+    
+    
+    <agent img="agua.png" x="0" y="0" height="100" width="100" />
+    <agent img="chao_floresta_borda.png" x="90" y="0" height="100" width="100" />
+    <agent img="chao_floresta.png" x="190" y="0" height="100" width="100" />
+    <agent img="chao_floresta.png" x="290" y="0" height="100" width="100" />
+    <agent img="chao_floresta.png" x="390" y="0" height="100" width="100" />
+    <agent img="chao_floresta.png" x="400" y="0" height="100" width="100" />
+    <agent img="protagonista_parado.png" x="100" y="85" height="100" width="100" />
+    <agent img="arbusto_floresta.png" x="250" y="90" height="70" width="70" />
+    
+    <agent text="um jovem cavaleiro" font-size="22" color="blue" x="200" y="325" width="500" height="100"/>
+    
+    <agent text="Era uma vez..." font-size="22" color="blue" x="40" y="350" width="500" height="100"/>
+    <agent img="sign_direita.png" x="425" y="90" height="60" width="60" on-touch="_NEXT_PAGE" />
+  </page>
+  
+	
+  <page background="bg_floresta.png" soundtrack="song.wav">
+  	<agent img="chao_floresta.png" x="0" y="0" height="100" width="100" />
+    <agent img="chao_floresta.png" x="100" y="0" height="100" width="100" />
+    <agent img="chao_floresta.png" x="200" y="0" height="100" width="100" />
+    <agent img="chao_floresta.png" x="300" y="0" height="100" width="100" />
+    <agent img="chao_floresta.png" x="400" y="0" height="100" width="100" />
+    <agent img="chao_floresta.png" x="500" y="0" height="100" width="100" />
+    <agent img="protagonista_parado.png" x="15" y="85" height="100" width="100" />
+
+    
+    <agent img="arvore1.png" x="75" y="90" height="125" width="125" />
+    <agent img="arvore2.png" x="130" y="90" height="150" width="150" />
+    <agent img="pedra.png" x="130" y="90" height="30" width="60" />
+    <agent img="arbusto_floresta.png" x="250" y="90" height="70" width="70" />
+    <agent img="arvore2.png" x="350" y="90" height="150" width="150" />
+    <agent img="arvore1.png" x="405" y="90" height="150" width="150" />
+    <agent img="arvore2.png" x="250" y="90" height="150" width="150" />
+    
+    <agent text="Com medo de errar no presente..." font-size="16" color="blue" x="40" y="350" width="500" height="100"/>
+    
+    <agent img="sign_direita.png" x="425" y="90" height="60" width="60" on-touch="_NEXT_PAGE" />
+  </page>
+  
+  <page background="bg_floresta.png" soundtrack="song.wav">
+    
+    <agent img="chao_floresta.png" x="0" y="0" height="100" width="100" />
+    <agent img="chao_floresta.png" x="100" y="0" height="100" width="100" />
+    <agent img="chao_floresta.png" x="200" y="0" height="100" width="100" />
+    <agent img="chao_floresta.png" x="300" y="0" height="100" width="100" />
+    <agent img="chao_floresta.png" x="400" y="0" height="100" width="100" />
+    <agent img="chao_floresta.png" x="500" y="0" height="100" width="100" />
+    <agent img="protagonista_parado.png" x="15" y="85" height="100" width="100" />
+
+    
+    <agent img="arvore1.png" x="75" y="90" height="125" width="125" />
+    <agent img="arvore2.png" x="130" y="90" height="150" width="150" />
+    <agent img="pedra.png" x="130" y="90" height="30" width="60" />
+    <agent img="arbusto_floresta.png" x="250" y="90" height="70" width="70" />
+    <agent img="arvore2.png" x="350" y="90" height="150" width="150" />
+    <agent img="arvore1.png" x="405" y="90" height="150" width="150" />
+    <agent img="arvore2.png" x="250" y="90" height="150" width="150" />
+    
+    <agent text="Com medo de errar no presente..." font-size="16" color="blue" x="40" y="350" width="500" height="100"/>
+    <agent text="procurava respostas no futuro" font-size="16" color="blue" x="200" y="325" width="500" height="100"/>
+    
+    <agent img="sign_direita.png" x="425" y="90" height="60" width="60" on-touch="_NEXT_PAGE" />
+  	
+  </page>
+
+  
+  <page background="bg_deserto.png" soundtrack="song.wav">
+    <agent img="chao_deserto.png" x="0" y="0" height="100" width="100" />
+    <agent img="chao_deserto.png" x="100" y="0" height="100" width="100" />
+    <agent img="chao_deserto.png" x="200" y="0" height="100" width="100" />
+    <agent img="chao_deserto.png" x="300" y="0" height="100" width="100" />
+    <agent img="chao_deserto.png" x="400" y="0" height="100" width="100" />
+    <agent img="chao_deserto.png" x="500" y="0" height="100" width="100" />
+    <agent img="protagonista_parado.png" x="15" y="85" height="100" width="100" />
+    
+    <agent img="cacto.png" x="150" y="90" height="80" width="80" />
+    <agent img="cadaver_deserto.png" x="300" y="85" height="80" width="85" />
+		
+    <agent text="Atravessou florestas e desertos..." font-size="16" color="blue" x="40" y="350" width="500" height="100"/>
+    
+    <agent img="sign_direita.png" x="425" y="90" height="60" width="60" on-touch="_NEXT_PAGE" />
+  
+  </page>
+  
+  <page background="bg_deserto.png" soundtrack="song.wav">
+  	<agent img="chao_deserto.png" x="0" y="0" height="100" width="100" />
+    <agent img="chao_deserto.png" x="100" y="0" height="100" width="100" />
+    <agent img="chao_deserto.png" x="200" y="0" height="100" width="100" />
+    <agent img="chao_deserto.png" x="300" y="0" height="100" width="100" />
+    <agent img="chao_deserto.png" x="400" y="0" height="100" width="100" />
+    <agent img="chao_deserto.png" x="500" y="0" height="100" width="100" />
+    <agent img="protagonista_parado.png" x="15" y="85" height="100" width="100" />
+    
+    <agent img="cacto.png" x="150" y="90" height="80" width="80" />
+    <agent img="cadaver_deserto.png" x="300" y="85" height="80" width="85" />
+		
+    <agent text="Atravessou florestas e desertos..." font-size="16" color="blue" x="40" y="350" width="500" height="100"/>
+    <agent text="mas nunca se sentia completo" font-size="16" color="blue" x="200" y="325" width="500" height="100"/>
+    
+    <agent img="sign_direita.png" x="425" y="90" height="60" width="60" on-touch="_NEXT_PAGE" />
+  </page>
+  
+  <page background="bg_neve.png" soundtrack="song.wav">
+    <agent img="chao_neve.png" x="0" y="0" height="100" width="100" />
+    <agent img="chao_neve.png" x="100" y="0" height="100" width="100" />
+    <agent img="chao_neve.png" x="200" y="0" height="100" width="100" />
+    <agent img="chao_neve.png" x="300" y="0" height="100" width="100" />
+    <agent img="chao_neve.png" x="400" y="0" height="100" width="100" />
+    <agent img="chao_neve.png" x="500" y="0" height="100" width="100" />
+    <agent img="protagonista_velho.png" x="15" y="85" height="100" width="120" />
+    
+    <agent img="gelo.png" x="140" y="90" height="40" width="40" />
+    <agent img="iglu.png" x="230" y="90" height="90" width="140" />
+    
+    <agent text="Certo dia observou..." font-size="16" color="black" x="40" y="350" width="500" height="100"/>
+    
+    <agent img="sign_gelo.png" x="425" y="90" height="60" width="60" on-touch="_NEXT_PAGE" />
+  
+  </page>
+  
+  <page background="bg_neve.png" soundtrack="song.wav">
+    <agent img="chao_neve.png" x="0" y="0" height="100" width="100" />
+    <agent img="chao_neve.png" x="100" y="0" height="100" width="100" />
+    <agent img="chao_neve.png" x="200" y="0" height="100" width="100" />
+    <agent img="chao_neve.png" x="300" y="0" height="100" width="100" />
+    <agent img="chao_neve.png" x="400" y="0" height="100" width="100" />
+    <agent img="chao_neve.png" x="500" y="0" height="100" width="100" />
+    <agent img="protagonista_velho.png" x="15" y="85" height="100" width="120" />
+    
+    <agent img="gelo.png" x="140" y="90" height="40" width="40" />
+    <agent img="iglu.png" x="230" y="90" height="90" width="140" />
+    
+    <agent text="Certo dia observou..." font-size="16" color="black" x="40" y="350" width="500" height="100"/>
+    <agent text="que sua pele,antes jovem,enrrugou, e seus loiros cabelos o tempo levou" font-size="16" color=" black" x="0" y="325" width="500" height="100"/>
+    
+    <agent img="sign_gelo.png" x="425" y="90" height="60" width="60" on-touch="_NEXT_PAGE" />
+  
+  </page>
+  
+  <page background="bg_cemiterio.png" soundtrack="song.wav">
+  	
+    <agent img="chao_cemiterio.png" x="0" y="0" height="100" width="100" />
+    <agent img="chao_cemiterio.png" x="100" y="0" height="100" width="100" />
+    <agent img="chao_cemiterio.png" x="200" y="0" height="100" width="100" />
+    <agent img="chao_cemiterio.png" x="300" y="0" height="100" width="100" />
+    <agent img="chao_cemiterio.png" x="400" y="0" height="100" width="100" />
+    <agent img="chao_cemiterio.png" x="500" y="0" height="100" width="100" />
+    <agent img="protagonista_velho.png" x="15" y="85" height="100" width="120" />
+    
+    <agent img="cruz.png" x="140" y="90" height="50" width="40" />
+    <agent img="lapide.png" x="200" y="90" height="50" width="40" />
+    <agent img="cruz.png" x="270" y="90" height="50" width="40" />
+    <agent img="lapide.png" x="340" y="90" height="50" width="40" />
+    
+    <agent text="Sem respostas,sem forças e agora sem tempo,o não mais jovem cavaleiro percebeu" font-size="16" color="white" x="10" y="380" width="500" height="100"/>
+    
+    <agent img="sign_direita.png" x="425" y="90" height="60" width="60" on-touch="_NEXT_PAGE" />
+  </page>
+  
+  <page background="bg_cemiterio.png" soundtrack="song.wav">
+  	<agent img="penhasco_chao.png" x="0" y="0" height="100" width="100" />
+    <agent img="penhasco.png" x="100" y="0" height="100" width="100" />
+    
+     <agent text="Que procurando viver no futuro..." font-size="16" color="white" x="170" y="80" width="500" height="100"/>
+    <agent text="seu presente ele perdeu." font-size="16" color="white" x="170" y="60" width="500" height="100"/>
+    <agent text="-Fim" font-size="16" color="white" x="300" y="40" width="500" height="100"/>
+    
+    <agent img="cruz.png" x="120" y="90" height="50" width="40" />
   </page>
 </fable>
